@@ -1,15 +1,15 @@
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { deposit, reset, withdraw } from "./store/balance/actions";
-import { selectBalance } from "./store/balance/selector";
+import { deposit, reset, withdraw } from "../../store/balance/actions";
+import { selectBalance } from "../../store/balance/selector";
 
-function App() {
+export const Balance = () => {
   const dispatch = useDispatch();
   const balance = useSelector(selectBalance);
   const [amount, setAmount] = useState(0);
 
   return (
-    <div className='App'>
+    <>
       <p>Balance: {balance}$</p>
       <div
         style={{
@@ -49,8 +49,6 @@ function App() {
           Reset
         </button>
       </div>
-    </div>
+    </>
   );
-}
-
-export default App;
+};
