@@ -25,7 +25,7 @@ function App() {
       </button>
       <button
         onClick={() => {
-          dispatch(reset);
+          dispatch(reset());
         }}
       >
         Reset
