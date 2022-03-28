@@ -1,4 +1,4 @@
-import { DEPOSIT, RESET, WITHDRAW } from "./types";
+import { BALANCE_DEPOSIT, BALANCE_RESET, BALANCE_WITHDRAW } from "./types";
 
 const initialState = {
   amount: 0,
@@ -7,17 +7,17 @@ const initialState = {
 export default function reducer(state = initialState, action) {
   const { type, payload } = action;
   switch (type) {
-    case DEPOSIT:
+    case BALANCE_DEPOSIT:
       return {
         ...state,
         amount: state.amount + payload,
       };
-    case WITHDRAW:
+    case BALANCE_WITHDRAW:
       return {
         ...state,
         amount: state.amount - payload,
       };
-    case RESET:
+    case BALANCE_RESET:
       return {
         ...state,
         amount: 0,

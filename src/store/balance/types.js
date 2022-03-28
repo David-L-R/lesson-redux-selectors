@@ -1,3 +1,3 @@
-export const DEPOSIT = "DEPOSIT";
-export const WITHDRAW = "WITHDRAW";
-export const RESET = "RESET";
+export const BALANCE_DEPOSIT = "BALANCE_DEPOSIT";
+export const BALANCE_WITHDRAW = "BALANCE_WITHDRAW";
+export const BALANCE_RESET = "BALANCE_RESET";

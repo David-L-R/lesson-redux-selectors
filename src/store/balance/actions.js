@@ -1,15 +1,15 @@
-import { DEPOSIT, RESET, WITHDRAW } from "./types";
+import { BALANCE_DEPOSIT, BALANCE_RESET, BALANCE_WITHDRAW } from "./types";
 
 export const deposit = (amount) => ({
-  type: DEPOSIT,
+  type: BALANCE_DEPOSIT,
   payload: amount,
 });
 
 export const withdraw = (amount) => ({
-  type: WITHDRAW,
+  type: BALANCE_WITHDRAW,
   payload: amount,
 });
 
 export const reset = () => ({
-  type: RESET,
+  type: BALANCE_RESET,
 });
