@@ -1,5 +1,6 @@
 # Selectors
 
 - select complex values
-- add new entry
-- save favorites in user
+- add new entry (new grocery)
+- track ids in another reducer (favorites)
+- cross selectors
