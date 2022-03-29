@@ -1,9 +1,11 @@
-import { Balance } from "./components";
+import { Balance, Form, Groceries } from "./components";
 
 function App() {
   return (
     <div className='App'>
-      <Balance />
+      {/* <Balance /> */}
+      <Form />
+      <Groceries />
     </div>
   );
 }
