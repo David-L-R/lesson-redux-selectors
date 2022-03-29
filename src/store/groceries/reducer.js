@@ -7,6 +7,7 @@ const initialState = [
     price: 0.7,
     amount: 3,
     checked: false,
+    section: "veggies",
   },
   {
     id: "1",
@@ -14,6 +15,7 @@ const initialState = [
     price: 8,
     amount: 0.4,
     checked: false,
+    section: "meat",
   },
   {
     id: "2",
@@ -21,6 +23,7 @@ const initialState = [
     price: 1.2,
     amount: 2,
     checked: true,
+    section: "dairy",
   },
   {
     id: "3",
@@ -28,6 +31,7 @@ const initialState = [
     price: 3.2,
     amount: 1,
     checked: true,
+    section: "breads",
   },
   {
     id: "4",
@@ -35,6 +39,23 @@ const initialState = [
     price: 6,
     amount: 0.2,
     checked: true,
+    section: "meat",
+  },
+  {
+    id: "5",
+    name: "bananas",
+    price: 1,
+    amount: 5,
+    checked: false,
+    section: "fruit",
+  },
+  {
+    id: "6",
+    name: "beer",
+    price: 3,
+    amount: 3,
+    checked: false,
+    section: "alcohol",
   },
 ];
 
