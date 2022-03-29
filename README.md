@@ -1,6 +1,6 @@
-# Selectors
+# Separation Of Concerns (Using selectors)
 
-- select complex values
+- Create logic in selectors
 - add new entry (new grocery)
 - track ids in another reducer (favorites)
 - cross selectors
