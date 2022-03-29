@@ -6,5 +6,5 @@
 
 - Create logic in selectors
 - add new entry (new grocery)
-- track ids in another reducer (favorites)
-- cross selectors
+- cross selectors (track ids in another reducer)
+- parameters
